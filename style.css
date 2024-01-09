@@ -1,0 +1,100 @@
+/* Made By Mauro De Smet*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+html, body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.main {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.nav-bar {
+    display: inline-flex;
+    width: 100%;
+    box-sizing: border-box;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.3);
+    display: flex;
+    width: 50%;
+    justify-content: flex-start;
+    align-items: center;
+}
+.right {
+    list-style-type: none;
+    margin: 0;
+    padding-right: 20px;
+    overflow: hidden;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.3);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+}
+li {
+    display: inline-block;
+}
+ul li a { 
+    transition: all 0.3s ease 0s;
+}
+ul li a:hover {
+    color: rgba(0, 0, 0, 0.85);
+    transform: scale(1.05);
+    transform: translateY(-2.3px) ;
+}
+li a, li img, li h2 {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+}
+li a {
+    font-family: "Open Sans", sans-serif;
+    padding: 10px;
+    margin: 10px;
+}
+li h2 {
+    color: black; /* Change the color */
+    font-family: "Open Sans", sans-serif;
+}
+li img {
+    border-radius: 50%;
+}
+.mainscreen {
+    padding-top: 195px;
+    margin: 0;
+}
+.title {
+    color: white;
+    font-size: 45px;
+}
+.t-d {
+    color: rgb(146, 148, 148);
+}
+.scroll-down-arrow {
+    position: fixed;
+    bottom: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+.scroll-down-arrow span {
+    display: block;
+    width: 26px;
+    height: 26px;
+    border-bottom: 2.5px solid #000;
+    border-right: 2.5px solid #000;
+    transform: rotate(45deg);
+    margin: 0 auto;
+}
