@@ -154,6 +154,9 @@ header {
     .container .desktop {
         display: none;
     }
+    .portfolio {
+        margin-top: 80px;
+    }
 }
 .main {
     margin: 0;
@@ -165,7 +168,6 @@ header {
     text-align: center;
     position: relative;
 }
-
 .title {
     color: white;
     font-size: 45px;
@@ -173,8 +175,18 @@ header {
 .t-d {
     color: rgb(146, 148, 148);
 }
+/* PORTFOLIO PAGE*/
+.portfolio {
+    height: 100vh;
+}
 .secondscreen {
     height: 100vh;
+}
+.title-div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .title-p {
     color: white;
@@ -226,6 +238,9 @@ header {
     text-align: left;
     margin-bottom: 5px;
 }
+.row .item .tu-text {
+    cursor: pointer;
+}
 .row .item .item-title {
     text-align: right;
     color: white;
@@ -265,4 +280,12 @@ header {
     margin-bottom: 15px;
     margin-right: 20px;
     cursor: pointer;
+    transition: all 0.3s ease;
+}
+.bottom .btn:hover {
+    transform: scale(1.05);
+    color: white;
+}
+.open-project:hover {
+    color: white;
 }
