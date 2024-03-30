@@ -29,11 +29,12 @@
 </head>
 <body>
     <div class="container">
-        <img src="https://raw.githubusercontent.com/TDevTeam/tdevteam.github.io/main/background.jpg">
+        <img class="desktop" src="https://raw.githubusercontent.com/TDevTeam/tdevteam.github.io/main/background.jpg">
+        <img class="mobile" src="https://raw.githubusercontent.com/TDevTeam/tdevteam.github.io/main/background-mobile.jpg">
     </div>
     <header>
         <ul class="sidebar">
-            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li onclick=hideSidebar() class="close"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
             <li><a href="index.html">Home</a></li>
             <li><a href="portfolio.html">Portfolio</a></li>
             <li><a href="#" class="action-btn">Contact Us</a></li>
@@ -47,7 +48,7 @@
                 <li class="hideOnMobile"><a href="index.html">Home</a></li>
                 <li class="hideOnMobile"><a href="portfolio.html">Portfolio</a></li>
                 <li class="hideOnMobile"><a href="#" class="action-btn">Contact Us</a></li>
-                <li onclick=showSidebar() class="hamburger"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+                <li onclick=showSidebar() class="hamburger"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
             </ul>
         </div>
     </header>
