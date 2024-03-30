@@ -159,14 +159,13 @@ header {
     margin: 0;
     padding: 0;
     height: 100vh;
-    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     position: relative;
 }
-.mainscreen {
-    padding-top: 195px;
-    margin: 0;
-}
+
 .title {
     color: white;
     font-size: 45px;
