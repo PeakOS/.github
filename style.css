@@ -232,6 +232,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 15px;
 }
 .title-p {
     color: white;
@@ -274,6 +275,9 @@ header {
 .row .item .tu {
     width: 140px;
     margin-right: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .row .item .tu h3 {
     border: 2px solid #23a6f0;
@@ -370,5 +374,25 @@ header {
 }
 .row .item .tu-text {
     cursor: pointer;
+}
+.left-row {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.right-row {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.row {
+    position: unset;
+    width: unset;
+    height: unset;
+    display: flex;
+    flex-direction: column;
+    text-align: unset;
+    justify-content: unset;
+    align-items: center;
 }
 }
