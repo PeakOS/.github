@@ -1,5 +1,4 @@
-/* The Dev Team main website: Mauro */
-/* rgba(32, 156, 255, 0.3)*/
+/* START CODE*/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 * {
     margin: 0;
@@ -7,6 +6,17 @@
     box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
 }
+:root {
+    --bar-width: 25px;
+    --bar-height: 2.8px;
+    --hamburger-gap: 3px;
+    --animation-timing: 200ms ease-in-out;
+    --hamburger-height: calc(var(--bar-height) * 3 + var(--hamburger-gap) * 2);
+}
+body {
+    min-height: 120vh;
+}
+/*FIXED BACKGROUND*/
 .container .mobile {
     display: none;
 }
@@ -22,9 +32,7 @@
     height: 100%;
     z-index: -999;
 }
-body {
-    min-height: 120vh;
-}
+/* FIXED NAVIGATION BAR*/
 li {
     list-style: none;
 }
@@ -43,9 +51,6 @@ header {
     padding: 0 2rem;
     width: 100%;
     background-color: rgba(207, 205, 205, 0.36);
-}
-.hamburger {
-    display: none;
 }
 .navbar {
     width: 100%;
@@ -106,7 +111,49 @@ header {
     scale: 1.05;
     color: #fff;
 }
+.hamburger {
+    --x-width: calc(var(--hamburger-height) * 1.41421356237);
+    z-index: 1400;
+    width: max-content;
+    display: none;
+    flex-direction: column;
+    gap: var(--hamburger-gap);
+    cursor: pointer;
+}
+.hamburger::before,
+.hamburger::after,
+.hamburger input {
+    content: "";
+    width: var(--bar-width);
+    height: var(--bar-height);
+    background-color: white;
+    border-radius: 800px;
+    transform-origin: left center;
+    transition: opacity var(--animation-timing), width var(--animation-timing), rotate var(--animation-timing), translate var(--animation-timing), background-color var(--animation-timing);
+}
+.hamburger input {
+    appearance: none;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    pointer-events: none;
+}
+.hamburger:has(input:checked)::before {
+    rotate: 45deg;
+    width: var(--x-width);
+    translate: 0 calc(var(--bar-height) / -2);
+}
+.hamburger:has(input:checked)::after {
+    rotate: -45deg;
+    width: var(--x-width);
+    translate: 0 calc(var(--bar-height) / 2);
+}
+.hamburger input:checked {
+    opacity: 0;
+    width: 0;
+}
 .sidebar {
+    margin-top: 90px;
     position: fixed;
     top: 0;
     right: 0;
@@ -127,10 +174,6 @@ header {
     justify-content: center;
     margin: 13px;
 }
-.sidebar .close {
-    display: block;
-    justify-content: left;
-}
 @media(max-width: 800px) {
     .hideOnMobile {
         display: none;
@@ -139,7 +182,7 @@ header {
         background-color: unset;
     }
     .hamburger {
-        display: block;
+        display: flex;
     }
     .mainscreen .title {
         font-size: 30px;
@@ -158,6 +201,7 @@ header {
         margin-top: 80px;
     }
 }
+/*HOME SECTION*/
 .main {
     margin: 0;
     padding: 0;
@@ -175,7 +219,7 @@ header {
 .t-d {
     color: rgb(146, 148, 148);
 }
-/* PORTFOLIO PAGE*/
+/* PORTFOLIO SECTION*/
 .portfolio {
     height: 100vh;
 }
@@ -311,7 +355,7 @@ header {
     font-size: 14px;
 }
 .row .item .tu {
-    width: 114px;
+    width: 125px;
     margin-right: 9px;
 }
 .row .item .tu h3 {
