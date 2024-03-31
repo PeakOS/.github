@@ -152,7 +152,33 @@ header {
     opacity: 0;
     width: 0;
 }
+@keyframes show {
+    0% {
+        height: 0%;
+    }
+    100% {
+        height: 160px;
+    }
+}
+@keyframes hide {
+    0% {
+    height: 160px;
+  }
+    100% {
+    height: 0%;
+  }
+}
+@keyframes animation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 .sidebar {
+    animation: show 300ms forwards;
+    transition: all 0.3s ease;
     margin-top: 90px;
     position: fixed;
     top: 0;
@@ -170,6 +196,7 @@ header {
     justify-content: flex-start;
 }
 .sidebar li {
+    animation: animation 1s;
     width: 100%;
     display: flex;
     justify-content: center;

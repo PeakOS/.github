@@ -66,6 +66,8 @@
         hamburger.addEventListener('change', () => {
         sidebar.style.display = hamburger.checked ? 'flex' : 'none';
         });
+        /*give sidebar the animaition hide WHEn closing and only when closing NOT ALWAYS : (hamburger isnt checked)*/
+        sidebar.style.animation = hamburger.checked ? 'none' : 'hide 500ms';
     </script>
 </body>
 </html>
