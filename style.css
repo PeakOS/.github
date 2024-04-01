@@ -290,11 +290,17 @@ header {
     left: 50%;
 }
 .row .item {
+    padding: 8px;
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 20px;
     width: 70%;
     margin-bottom: 30px;
     margin-top: 30px;
+    transition: all 0.3s ease;
+}
+.row .item:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
 .row .item-left {
     margin-left: 30px;
