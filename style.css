@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
+    overflow-x: hidden;
 }
 :root {
     --bar-width: 25px;
@@ -443,7 +444,7 @@ header {
     padding: 0;
     margin: 0;
     display: flex;
-    flex-direction: row;
+    flex-direction: row !important;
     height: 120vh !important;
 }
 .contact-main .contact-leftscreen {
@@ -453,7 +454,7 @@ header {
     margin-left: 40px;
     align-items: left;
     justify-content: top;
-    width: 60%;
+    width: 45%;
 }
 .top-text {
     width: 100%;
@@ -468,7 +469,39 @@ header {
     margin-bottom: 15px;
 }
 .contact-main .contact-rightscreen {
-    width: 40%;
+    width: 55%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.contact-head h3 {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+.contact-head p {
+    color: rgb(146, 148, 148);
+}
+.contact-items {
+    margin-top: 5px;
+}
+.contact-items .item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 7px;
+}
+.contact-items .item h4 {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.contact-items .item img {
+    margin-right: 13px;
+    width: 37px;
+    height: 37px;
 }
 .contact-form {
     height: 100%;
