@@ -5,7 +5,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
-    overflow-x: hidden;
 }
 :root {
     --bar-width: 25px;
@@ -552,4 +551,43 @@ header {
     border: 1px solid #23a6f0;
     background-color: #23a6f0;
     border-radius: 5px;
+}
+/* MOBILE OPTIMIZED CONTACT PAGE */
+@media(max-width: 800px) {
+    * {
+        overflow-x: hidden;
+    }
+    .contact-main {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        height: max-content;
+        flex-direction: column !important;
+    }
+    .contact-main .contact-leftscreen {
+        margin-top: 90px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+        align-items: left;
+        justify-content: top;
+        width: 100%;
+    }
+    .top-text {
+        overflow-y: hidden;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .top-text h3 {
+        text-align: center;
+    }
+    .contact-form {
+        height: max-content;
+        width: max-content;
+        overflow-y: hidden;
+    }
+    textarea {height: 400px;}
 }
