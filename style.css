@@ -471,7 +471,7 @@ header {
     width: 40%;
 }
 .contact-form {
-    /*background-color: red;*/
+    background-color: red;
     height: 100%;
     width: max-content;
 }
