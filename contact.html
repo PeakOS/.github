@@ -55,7 +55,7 @@
             </ul>
         </div>
     </header>
-    <div class="contact-main">
+    <div class="contact-main desktop">
             <section class="contact-leftscreen">
                 <div class="top-text">
                     <h2>Contact Us</h2>
@@ -102,6 +102,56 @@
                     </div>
                 </div>
             </div>
+    </div>
+    <div class="contact-main-mobile mobile">
+        <div class="top-contact-mobile">
+            <h2 class="title">Contact Us</h2>
+            <h4>Ready to join us and make this platform your own? Reach out with any questions. We're excited to support you on this journey.</h4>
+        </div>
+        <form class="contact-form-mobile" action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="6a22dc8e-2302-4dee-a620-1a7a153de48d">
+            <!--NAME-->
+            <div class="item-mobile">
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name" placeholder="First Name" required>
+            </div>
+            <div class="item-mobile">
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name" placeholder="Last Name" required>
+            </div>
+            <!--EMAIL-->
+            <div class="item-mobile">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="youremail@example.com" required>
+            </div>
+            <!--MESSAGE-->
+            <div class="item-message">
+                <label for="message" aria-required="true">Message:</label>
+                <textarea id="message" name="message" rows="8" required></textarea>
+            </div>
+            <div class="terms-mobile">
+                <input type="checkbox" id="terms-checkbox" required>
+                <label for="terms-checkbox">You agree to our friendly <a href="privacy-policy_TOS.html" class="mobile-tos-redirect">privacy policy and our TOS.</a></label>
+            </div>
+            <!--SUBMIT BUTTON-->
+            <button type="submit" class="btn-contact-mobile">Send Message</button>
+        </form>
+        <div class="contact-2">
+            <div class="top">
+                <h3>Chat With Us</h3>
+                <p>Speak to our friendly team.</p>
+            </div>
+            <div class="bottom-contact">
+                <div class="item-c-mobile">
+                    <img src="send-icon.png">
+                    <p>Shoot us an email at contact@devteamit.com</p>
+                </div>
+                <div class="item-c-mobile">
+                    <img src="x.png">
+                    <p>Message us on X - @devteamit</p>
+                </div>
+            </div>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
