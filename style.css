@@ -541,8 +541,13 @@ header {
     display: block;
     width: max-content;
 }
-.terms label {
+.terms label a {
     width: 89% !important;
+    font-size: 12px;
+}
+.terms label {
+    font-size: 12px;
+    margin-left: 5px;
 }
 .btn-contact {
     color: white;
