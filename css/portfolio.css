@@ -139,9 +139,6 @@
     color: white;
 }
 @media(max-width: 800px) {
-.portfolio {
-    height: 130vh;
-}
 .row {
     width: 100%;
     flex-direction: column;
