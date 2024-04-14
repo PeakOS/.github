@@ -142,7 +142,7 @@
 .portfolio {
     display: flex;
     flex-direction: column;
-    height: 130vh;
+    height: 140vh;
 }
 .row {
     width: 100%;
