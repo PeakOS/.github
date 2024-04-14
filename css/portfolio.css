@@ -139,6 +139,10 @@
     color: white;
 }
 @media(max-width: 800px) {
+.portfolio {
+    display: flex;
+    flex-direction: column;
+}
 .row {
     width: 100%;
     flex-direction: column;
