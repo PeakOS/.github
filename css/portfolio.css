@@ -1,5 +1,5 @@
 .portfolio {
-    height: 100vh;
+    height: 130vh;
 }
 .title {
     color: white;
@@ -138,38 +138,15 @@
 .open-project:hover {
     color: white;
 }
-.main-mobile {
-    display: none;
-}
 @media(max-width: 800px) {
-    .main {
-        display: none;
-    }
-    .portfolio {
-        display: none;
-    }
-    .footer {
-        display: none;
-    }
-    .main-mobile {
-        margin: 0;
-        padding: 0;
-        height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        position: relative;
-    }
-    /*.row {
+.row {
     width: 100%;
     flex-direction: column;
-  }
-
-  .left-row, .right-row {
+}
+.left-row, .right-row {
     position: static;
-  }
-  .row .item-left {
+}
+.row .item-left {
     margin-left: 0px;
 }
 .row .item-right {
@@ -216,5 +193,5 @@
     text-align: unset;
     justify-content: unset;
     align-items: center;
-}*/
+}
 }
