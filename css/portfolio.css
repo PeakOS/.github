@@ -1,5 +1,5 @@
 .portfolio {
-    height: 100vh;
+    height: 120vh;
 }
 .title {
     color: white;
@@ -142,7 +142,7 @@
 .portfolio {
     display: flex;
     flex-direction: column;
-    height: 140vh;
+    height: 160vh;
 }
 .row {
     width: 100%;
