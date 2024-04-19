@@ -15,3 +15,34 @@
 .t-d {
     color: rgb(146, 148, 148);
 }
+.contact-form {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.form-div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.form-div label {
+    color: #BDBDBD;
+    margin-bottom: 5px;
+}
+.form-div input, .form-div textarea {
+    padding: 7px;
+    border-radius: 15px;
+    border: none;
+}
+.btn-submit {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 5px;
+    border-radius: 15px;
+    border: none;
+    background-color: #7F56D9;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
