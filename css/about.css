@@ -1,0 +1,23 @@
+.main {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+.title {
+    color: white;
+    font-size: 45px;
+}
+.t-d {
+    color: rgb(146, 148, 148);
+}
+@media(max-width: 800px) {
+    .t-d {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
