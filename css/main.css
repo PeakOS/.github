@@ -12,7 +12,8 @@
 }
 @media(max-width: 800px) {
     .mx-33 {
-        margin: 33px 0px !important;
+        margin-top: 15px !important;
+        margin-bottom: 15px !important;
     }
     .mt-90 {
         margin-top: 0px !important;
