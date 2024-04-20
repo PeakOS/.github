@@ -64,10 +64,6 @@
     font-size: 20px;
 }
 @media(max-width: 800px) {
-    .t-d {
-        margin-left: 5px;
-        margin-right: 5px;
-    }
     .card-list {
         flex-direction: column !important;
     }

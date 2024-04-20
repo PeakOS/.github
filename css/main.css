@@ -17,6 +17,10 @@
     .mt-90 {
         margin-top: 0px !important;
     }
+    .t-d {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
 }
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 * {
