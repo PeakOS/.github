@@ -15,6 +15,54 @@
 .t-d {
     color: rgb(146, 148, 148);
 }
+.about {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card-list {
+    margin-top: 70px;
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-list .card {
+    width: 326px !important;
+    padding: 50px 40px;
+    background-color: white;
+    border-radius: 10px;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.username, .email {
+    color: #737373;
+    font-size: 14px;
+}
+.description {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    color: #737373;
+    font-size: 12px;
+}
+.button {
+    padding: 15px 40px;
+    background-color: #23A6F0;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+}
+.card .name {
+    margin: 35px 0px;
+    font-size: 20px;
+}
 @media(max-width: 800px) {
     .t-d {
         margin-left: 5px;

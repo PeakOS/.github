@@ -1,4 +1,15 @@
 /* START CODE*/
+/*CSS FRAM.*/
+.text {
+    text-align: center;
+    color: white
+}
+.mx-33 {
+    margin: 0px 33px;
+}
+.mt-90 {
+    margin-top: 90px;
+}
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 * {
     margin: 0;
