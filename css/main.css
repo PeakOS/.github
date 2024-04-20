@@ -10,6 +10,14 @@
 .mt-90 {
     margin-top: 90px;
 }
+@media(max-width: 800px) {
+    .mx-33 {
+        margin: 33px 0px !important;
+    }
+    .mt-90 {
+        margin-top: 0px !important;
+    }
+}
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 * {
     margin: 0;
