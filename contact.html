@@ -63,20 +63,21 @@
         </div>
     </div>
     <div class="contact-form">
-        <form action="https://api.web3forms.com/submit" method="post">
-            <input type="hidden" name="acces_key" id="6a22dc8e-2302-4dee-a620-1a7a153de48d">
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="6a22dc8e-2302-4dee-a620-1a7a153de48d">
             <div class="form-div">
                 <label for="fullName">Full Name</label>
-                <input type="text" id="fullName" placeholder="Name" required>
+                <input type="text" id="fullName" placeholder="Name" required name="name">
             </div>
             <div class="form-div">
                 <label for="email">Email</label>
-                <input type="email" id="email" placeholder="you@company.com" required>
+                <input type="email" id="email" placeholder="you@company.com" required name="email">
             </div>
             <div class="form-div">
                 <label for="message">Message</label>
                 <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
             </div>
+            <input type="hidden" name="redirect" value="https://web3forms.com/success">
             <button type="submit" class="btn-submit">Submit</button>
         </form>
     </div>
