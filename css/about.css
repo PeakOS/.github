@@ -71,4 +71,10 @@
     .card-list {
         flex-direction: column !important;
     }
+    .c-1 {
+        margin-bottom: 15px;
+    }
+    .c-2 {
+        margin-top: 15px;
+    }
 }
