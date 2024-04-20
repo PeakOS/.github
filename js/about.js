@@ -47,7 +47,7 @@ if(randomNum === 1) {
 
     name3.textContent = "Eshwar B.Y.";
     username3.textContent = "zemonarch";
-    email3.textContent = "ehswar@devteamit.com";
+    email3.textContent = "eshwar@devteamit.com";
     description3.textContent = description;
 }
 if(randomNum === 2) {
