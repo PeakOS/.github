@@ -2,9 +2,9 @@ const name1 = document.getElementById("name1");
 const name2 = document.getElementById("name2");
 const name3 = document.getElementById("name3");
 
-const role1 = document.getElementById("role1");
-const role2 = document.getElementById("role2");
-const role3 = document.getElementById("role3");
+const role1 = document.getElementById("Role1");
+const role2 = document.getElementById("Role2");
+const role3 = document.getElementById("Role3");
 
 const username1 = document.getElementById("username1");
 const username2 = document.getElementById("username2");
