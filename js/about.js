@@ -18,8 +18,7 @@ const description1 = document.getElementById("description1");
 const description2 = document.getElementById("description2");
 const description3 = document.getElementById("description3");
 
-const description = "Slate helps you see how many more days you need to work to reach your financial goal for the month and year."; /*this can be changed later*/
-const eshwardescription = "Eshwar is an avid person who loves computers, design, and business. He loves to program and to complete new challenges every single day.";
+const description = "Slate helps you see how many more days you need to work to reach your financial goal for the month and year.";
 
 const randomNum = Math.floor(Math.random() * 3);
 
@@ -34,7 +33,7 @@ if(randomNum === 0) {
     role2.textContent = "Owner";
     username2.textContent = "zemonarch";
     email2.textContent = "eshwar@devteamit.com";
-    description2.textContent = eshwardescription;
+    description2.textContent = description;
 
     name3.textContent = "Ananamay Shaji";
     role3.textContent = "Owner";
