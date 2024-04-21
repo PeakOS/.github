@@ -60,5 +60,27 @@
 }
 .logos-slide img {
     height: 60px;
-    margin: 0 130px;
+    margin: 0 90px;
+}
+@media(max-width: 800px) {
+    .logos-slide img {
+        height: unset;
+        width: 80px;
+        margin: 0 90px;
+    }
+    .logos {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .logos:before {
+        content: unset;
+    }
+    .logos:after {
+        content: unset;
+    }
+    .logos:hover .logos-slide {
+        animation-play-state: unset;
+    }
 }
