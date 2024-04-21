@@ -83,4 +83,8 @@
     .logos:hover .logos-slide {
         animation-play-state: unset;
     }
+    .logos-slide {
+        width: 100%;
+        animation: 10s slide infinite linear;
+    }
 }
