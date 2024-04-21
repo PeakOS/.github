@@ -15,12 +15,26 @@
 .t-d {
     color: rgb(146, 148, 148);
 }
-.logo-scroll-div {
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+.logos {
+    display: flex;
+    overflow: hidden;
+    padding: 30px 0;
     background-color: rgba(207, 205, 205, 0.75);
 }
-.logo-scroll {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+.logos-slide {
+    width: 100%;
+    white-space: nowrap;
+    animation: 15s slide infinite linear;
+}
+.logos-slide img {
+    height: 60px;
+    margin: 0 90px;
 }
