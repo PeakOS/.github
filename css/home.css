@@ -15,3 +15,12 @@
 .t-d {
     color: rgb(146, 148, 148);
 }
+.logo-scroll-div {
+    background-color: rgba(207, 205, 205, 0.75);
+}
+.logo-scroll {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
