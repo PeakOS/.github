@@ -239,7 +239,9 @@ header {
     .hideOnMobile {
         display: none;
     }
-    header {
+    .navbar, header {
+        backdrop-filter: unset;
+        /* IT LOOKS BAD ON MOBILE*/
         background-color: unset;
     }
     .hamburger {
